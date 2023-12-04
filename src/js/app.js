@@ -57,7 +57,7 @@ function render(variables = {}) {
     variables.github ? variables.github : "abielsaf"
   }"><i class="fab fa-github"></i></a></li>
   <li><a href="https://linkedin.com/in/${
-    variables.linkedin
+    variables.linkedin ? variables.linkedin : "midudev"
   }"><i class="fab fa-linkedin"></i></a></li>
   <li><a href="https://instagram.com/${
     variables.instagram ? variables.instagram : "realmadrid"
